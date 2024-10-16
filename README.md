@@ -56,4 +56,7 @@ Ensure that the Brisk library is available and properly linked in your environme
 
 ## License
 
-This project is licensed under GPLv2+.
+The Brisk library is licensed under a dual GPLv2+/Commercial license.
+
+The example project contained in this repository is licensed under the public domain or CC0. You are free to modify this code and use it as a starting point for your own projects, either GPL-licensed or proprietary (provided you have acquired a commercial license for the Brisk library, for details, contact brisk@brisklib.com).
+
