@@ -18,10 +18,10 @@ public:
         gapRow = 8_px, // Set the vertical gap between elements
         alignItems = AlignItems::Center,  // Align child widgets to the center
         justifyContent = Justify::Center, // Center the layout in the parent
-        new Text{"Hello, world"}, // Display a text widget with "Hello, world"
-        new Button{
+        rcnew Text{"Hello, world"}, // Display a text widget with "Hello, world"
+        rcnew Button{
             // Create a button with a quit action
-            new Text{"Quit"}, // Button label
+            rcnew Text{"Quit"}, // Button label
             onClick =
                 m_lifetime |
                 []() {
