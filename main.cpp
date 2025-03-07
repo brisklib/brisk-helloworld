@@ -23,7 +23,7 @@ public:
             // Create a button with a quit action
             rcnew Text{"Quit"}, // Button label
             onClick =
-                m_lifetime |
+                lifetime() |
                 []() {
                   windowApplication->quit(); // Quit the application on click
                 },
