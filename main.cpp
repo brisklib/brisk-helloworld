@@ -11,7 +11,7 @@ using namespace Brisk;
 class RootComponent : public Component {
 public:
   // Builds the UI layout for the component
-  RC<Widget> build() final {
+  Rc<Widget> build() final {
     return rcnew VLayout{
         stylesheet = Graphene::stylesheet(), // Apply the default stylesheet
         Graphene::darkColors(),              // Use dark color scheme
@@ -34,7 +34,7 @@ public:
 
 // Entry point of the Brisk application
 int briskMain() {
-  GUIApplication application; // Create the GUI application
+  GuiApplication application; // Create the GUI application
 
   // Run the application with RootComponent as the main component
   return application.run(createComponent<RootComponent>());

@@ -7,7 +7,7 @@ This project demonstrates how to use the [Brisk C++ library](https://github.com/
 To build and run this project, ensure you have the following installed:
 
 - **C++ compiler** supporting C++20 or later
-- **CMake** version 3.16 or higher
+- **CMake** version 3.22 or higher
 - **Brisk Library** source code (Ensure `BRISK_DIR` is properly set to the location of the Brisk repository: `-DBRISK_DIR=path/to/brisk/repository`)
 
 ## Project Structure
@@ -60,3 +60,6 @@ The Brisk library is licensed under a dual GPLv2+/Commercial license.
 
 The example project contained in this repository is licensed under the public domain or CC0. You are free to modify this code and use it as a starting point for your own projects, either GPL-licensed or proprietary (provided you have acquired a commercial license for the Brisk library, for details, contact brisk@brisklib.com).
 
+## Compatibility
+
+The code in this example is compatible with Brisk 0.9.8+.
